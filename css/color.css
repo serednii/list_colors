@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* color */
+    --blue-100: LightSkyBlue;
+    --blue-200: DeepSkyBlue;
+    --blue-300: DodgerBlue;
+    --blue-400: CornflowerBlue;
+    --blue-500: MediumSlateBlue;
+    --blue-600: RoyalBlue;
+    --blue-700: Blue;
+    --blue-800: MediumBlue;
+    --blue-900: DarkBlue;
+    --red-100: IndianRed;
+    --red-200: LightCoral;
+    --red-300: Salmon;
+    --red-400: DarkSalmon;
+    --red-500: LightSalmon;
+    --red-600: Crimson;
+    --red-700: Red;
+    --red-800: FireBrick;
+    --red-900: DarkRed;
+    --green-100: green;
+    --violet-500: MediumSlateBlue;
+    --orang-100: Orange;
+    --gellow-500: Aqua;
+
+    /* typografy */
+    --family: 'Rubik', sans-serif;
+    --fs-base: 18px;
+    --weight-light: 300;
+    --weight-normal: 400;
+    --weight-bold: 500;
+
+    /* borders */
+
+
+
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--blue-900);
+    font-family: var(--family);
+    font-size: var(--fs-base);
+    color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.colors {
+    height: 100vh;
+}
+
+.container450 {
+    max-width: 450px;
+    width: 100%;
+}
+
+.view-color {
+    width: 500px;
+}
+
+
+
+.btn {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    line-height: 2;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(228, 31, 31);
+}
+
+.btn__active {
+    background-color: aquamarine;
+}
+
+.colors-table__wrapper {
+    display: flex;
+    gap: 20px;
+
+}
+
+.select-color {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+
+.h3palitra {
+    width: 100%;
+    text-align: center;
+}
+
+.td-color {
+    width: 150px;
+    padding: 2px;
+}
